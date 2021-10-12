@@ -115,7 +115,7 @@ class Description extends StatelessWidget {
     return FadeIn(
       duration: Duration(milliseconds: 400),
       child: Text(
-        "Start chating with people from \n all over the world.",
+        "Start chatting with people from \n all over the world in realtime.",
         textAlign: TextAlign.center,
         style: TextStyle(
           color: Colors.black,
