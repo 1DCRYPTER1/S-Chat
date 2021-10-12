@@ -24,20 +24,20 @@ class _AboutUsState extends State<AboutUs> {
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
-            child: Text("This app is created by Shaun D’silva. A demo application created for self use, which enables instant messaging. "
-                "This app is platform independent i.e. compatible with both android and iOS devices, and uses an internet connection for communication. "
+            child: Text("This app is created by Shaun D’silva. This application enables instant messaging. "
+                "This app is platform independent i.e. it can run in both android and iOS devices, and uses an internet connection for communication. "
                 "Technologies used in this are Flutter, Android Studio, Lotties, bloc, firebase database and authentication. "
                 "It’s easy to use and secures your privacy. With this app, keep in touch with your loved ones even from a distance apart!",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 decoration: TextDecoration.none, //Removed Underline
                 fontFamily: "Arial Rounded",
-                color: Colors.blueAccent,
-                fontSize: 15,
+                color: Colors.greenAccent,
+                fontSize: 16,
               ),
               ),
           ),
-          SizedBox(height: 15,),
+          SizedBox(height: 20,),
           Container(
             child: CircleAvatar(
                 backgroundImage: AssetImage('assets/images/shaun.png'),
